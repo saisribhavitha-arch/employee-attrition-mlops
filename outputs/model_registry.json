@@ -1,0 +1,9 @@
+{
+    "model_name": "EmployeeAttritionModel",
+    "model_version": 1,
+    "source_run_id": "52b5d11841c440d3b2b22a4b2673b439",
+    "best_model": "logistic_regression",
+    "selection_metric": "F1-Score",
+    "f1_score": 0.5074626865671642,
+    "lifecycle_stage": "Development"
+}
