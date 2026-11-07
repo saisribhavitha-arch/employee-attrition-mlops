@@ -1,0 +1,7 @@
+{
+  "model_name": "employee_attrition_classifier",
+  "version": "1.0.0",
+  "stage": "Production",
+  "artifact": "models\\employee_attrition_model.pkl",
+  "registered_at": "2026-11-07T09:08:39.931355+00:00"
+}

@@ -1,0 +1,4 @@
+import urllib.request, json
+payload={"Age":29,"BusinessTravel":"Travel_Rarely","DailyRate":1000,"Department":"Research & Development","DistanceFromHome":5,"Education":3,"EducationField":"Life Sciences","EnvironmentSatisfaction":3,"Gender":"Female","HourlyRate":65,"JobInvolvement":3,"JobLevel":2,"JobRole":"Research Scientist","JobSatisfaction":3,"MaritalStatus":"Single","MonthlyIncome":4500,"MonthlyRate":15000,"NumCompaniesWorked":1,"OverTime":"Yes","PercentSalaryHike":15,"PerformanceRating":3,"RelationshipSatisfaction":3,"StockOptionLevel":0,"TotalWorkingYears":5,"TrainingTimesLastYear":3,"WorkLifeBalance":2,"YearsAtCompany":2,"YearsInCurrentRole":2,"YearsSinceLastPromotion":1,"YearsWithCurrManager":2}
+req=urllib.request.Request("http://127.0.0.1:8000/predict",data=json.dumps(payload).encode(),headers={"Content-Type":"application/json"})
+print(json.loads(urllib.request.urlopen(req).read()))

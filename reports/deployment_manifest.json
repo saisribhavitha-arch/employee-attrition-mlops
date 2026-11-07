@@ -1,0 +1,16 @@
+{
+  "service": "employee-attrition-api",
+  "model_file": "models/employee_attrition_model.pkl",
+  "input": "employee feature fields (Attrition excluded)",
+  "output": [
+    "attrition_prediction",
+    "attrition_probability"
+  ],
+  "metrics": {
+    "accuracy": 0.5866666666666667,
+    "precision": 0.2556390977443609,
+    "recall": 0.576271186440678,
+    "f1": 0.3541666666666667,
+    "roc_auc": 0.6176243055067164
+  }
+}

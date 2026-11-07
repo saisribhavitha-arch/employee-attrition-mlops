@@ -1,0 +1,5 @@
+{
+  "candidate_model": "logistic_regression",
+  "candidate_f1": 0.3541666666666667,
+  "status": "trained"
+}

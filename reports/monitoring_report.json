@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-11-07T09:08:46.709896+00:00",
+  "batch_rows": 200,
+  "drift_threshold": 0.05,
+  "drifted_features": [
+    "EnvironmentSatisfaction",
+    "MonthlyIncome",
+    "NumCompaniesWorked",
+    "RelationshipSatisfaction"
+  ],
+  "drift": {
+    "Age": {
+      "reference_mean": 39.2,
+      "batch_mean": 39.45,
+      "relative_change": 0.006377551020245471
+    },
+    "DailyRate": {
+      "reference_mean": 791.7846666666667,
+      "batch_mean": 769.54,
+      "relative_change": 0.028094338780626327
+    },
+    "DistanceFromHome": {
+      "reference_mean": 15.38,
+      "batch_mean": 14.735,
+      "relative_change": 0.04193758127165564
+    },
+    "Education": {
+      "reference_mean": 3.032,
+      "batch_mean": 3.16,
+      "relative_change": 0.04221635882512657
+    },
+    "EnvironmentSatisfaction": {
+      "reference_mean": 2.5166666666666666,
+      "batch_mean": 2.67,
+      "relative_change": 0.06092715229367132
+    },
+    "HourlyRate": {
+      "reference_mean": 64.96933333333334,
+      "batch_mean": 66.475,
+      "relative_change": 0.023175036427085814
+    },
+    "JobInvolvement": {
+      "reference_mean": 2.5113333333333334,
+      "batch_mean": 2.485,
+      "relative_change": 0.010485797712840885
+    },
+    "JobLevel": {
+      "reference_mean": 2.973333333333333,
+      "batch_mean": 3.07,
+      "relative_change": 0.03251121075139758
+    },
+    "JobSatisfaction": {
+      "reference_mean": 2.4513333333333334,
+      "batch_mean": 2.4,
+      "relative_change": 0.02094098448968961
+    },
+    "MonthlyIncome": {
+      "reference_mean": 6905.394,
+      "batch_mean": 7631.0,
+      "relative_change": 0.10507814615645315
+    },
+    "MonthlyRate": {
+      "reference_mean": 14641.907333333333,
+      "batch_mean": 14865.75,
+      "relative_change": 0.015287807904442782
+    },
+    "NumCompaniesWorked": {
+      "reference_mean": 3.0686666666666667,
+      "batch_mean": 2.915,
+      "relative_change": 0.05007603735061609
+    },
+    "PercentSalaryHike": {
+      "reference_mean": 18.098666666666666,
+      "batch_mean": 18.265,
+      "relative_change": 0.009190363930536894
+    },
+    "PerformanceRating": {
+      "reference_mean": 3.1413333333333333,
+      "batch_mean": 3.12,
+      "relative_change": 0.00679117147491788
+    },
+    "RelationshipSatisfaction": {
+      "reference_mean": 2.488,
+      "batch_mean": 2.315,
+      "relative_change": 0.06953376202993017
+    },
+    "StockOptionLevel": {
+      "reference_mean": 1.4526666666666668,
+      "batch_mean": 1.475,
+      "relative_change": 0.01537402477142677
+    },
+    "TotalWorkingYears": {
+      "reference_mean": 11.915333333333333,
+      "batch_mean": 12.055,
+      "relative_change": 0.011721591226006706
+    },
+    "TrainingTimesLastYear": {
+      "reference_mean": 3.025333333333333,
+      "batch_mean": 3.0,
+      "relative_change": 0.008373732919224155
+    },
+    "WorkLifeBalance": {
+      "reference_mean": 2.5486666666666666,
+      "batch_mean": 2.635,
+      "relative_change": 0.03387392099115586
+    },
+    "YearsAtCompany": {
+      "reference_mean": 4.956,
+      "batch_mean": 4.985,
+      "relative_change": 0.005851493138448027
+    },
+    "YearsInCurrentRole": {
+      "reference_mean": 3.1626666666666665,
+      "batch_mean": 3.18,
+      "relative_change": 0.005480607080897883
+    },
+    "YearsSinceLastPromotion": {
+      "reference_mean": 2.844,
+      "batch_mean": 2.905,
+      "relative_change": 0.021448663846185403
+    },
+    "YearsWithCurrManager": {
+      "reference_mean": 3.1886666666666668,
+      "batch_mean": 3.195,
+      "relative_change": 0.001986201128375563
+    }
+  },
+  "candidate_model": "logistic_regression",
+  "candidate_f1": 0.3541666666666667,
+  "action": "candidate trained; review before production promotion"
+}
