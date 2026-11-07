@@ -1,0 +1,17 @@
+{
+    "original_rows": 1470,
+    "encoded_features": 50,
+    "training_rows_before_oversampling": 1176,
+    "training_rows_after_oversampling": 1972,
+    "testing_rows": 294,
+    "constant_columns_removed": [
+        "EmployeeCount",
+        "Over18",
+        "StandardHours"
+    ],
+    "correlated_feature_removed": "MonthlyIncome",
+    "test_size": 0.2,
+    "random_state": 42,
+    "scaling": "StandardScaler",
+    "oversampling": "RandomOverSampler"
+}
